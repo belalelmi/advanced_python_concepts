@@ -12,14 +12,14 @@ class PlayerCharacter:
     def __init__(self, name='anonymous', age='0'):
         ''' creating player attrributes '''
         if age > 18:
-            self.name = name   # attributes
-            self.age = age
+            self._name = name   # use _ before variable name to show that it should be a priavte variable
+            self._age = age     #
 
     def run(self):
         print('run')
 
     def shout(self):
-        print(f'my name is {self.name}')
+        print(f'my name is {self._name}')
 
     @classmethod
     def adding_things(cls, num1, num2):
