@@ -34,5 +34,3 @@ class PlayerCharacter:
 # print(player1.age)
 # print(player1.run())
 print(PlayerCharacter.adding_things(2, 4))
-
-# player1.run()
